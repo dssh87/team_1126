@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+    <style>
+        .back { background-color: #e5e6e4;}
+        table{ /*border: 1px solid black;*/ width: 900px; height: 300px; margin-left: auto; margin-right: auto; text-align: center; 
+            font-size: 32px; background-color: #cfd2cd
+        }
+        /*th, td { border: 1px solid black;}*/
+        .oh{ text-align: center; font-weight: bolder; font-size: 50px; background-color: #847577; padding: 2%; color: #fbfbf2; }
+        #list{ font-weight: bolder;}
+        #circle{
+            width: 150px; height: 150px; background-color:#a6a2a2; border-radius: 50%; text-align: center; line-height: 150px; color: #fbfbf2; margin-left: 20%;
+        }
+        #arrow{ display: inline-block; border: 25px solid transparent; border-left-color:#847577; margin-left: 100%;} 
+        .net{vertical-align: middle;}
+        /*#birth{ opacity: 0%;}*/
+    </style>
+    <script>
+     //   $(document).ready(function() {
+       //     $('#circle').hover(function() {
+         //       $('#birth').css('opacity', '100%').css();
+          //  });
+       // });
+    </script>
+</head>
+<body class="back">
+    <div class="oh">
+        오우석
+    </div> 
+    <table>
+        <tbody>
+            <tr>
+                <td id="list"><div id="circle">생년월일</div></td><td><div id="arrow"></div></td><td id="birth">1996년 11월 26일</td>
+            </tr>
+            <tr>
+                <td id="list"><div id="circle">취미</div></td><td><div id="arrow"></div></td>
+                <td>게임 <a href="https://www.leagueoflegends.com/ko-kr/"><img class="net" src="../public/image/lol.png" width="65px" height=" 65px"></a>
+                    넷플릭스<a href="https://www.netflix.com/kr/"><img class="net" src="../public/image/net.png" width="75px" height=" 75px"></a></td>
+            </tr>
+            <tr>
+                <td id="list"><div id="circle">특기</div></td><td><div id="arrow"></div></td><td>날카로운 탑갱</td>
+            </tr>
+            <tr>
+                <td id="list"><div id="circle">관심분야</div></td><td><div id="arrow"></div></td><td>모바일앱 제작</td>
+            </tr>
+            <tr>
+                <td id="list"><div id="circle">건의사항</div></td><td><div id="arrow"></div></td><td>모바일과정 진행해주세용</td>
+            </tr>
+        </tbody>
+        </thead>
+    </table>
+</body>
+</html>
